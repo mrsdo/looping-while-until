@@ -18,10 +18,10 @@
 
 # levitation_force = 6 #current
 def using_while
-  levitation_force = 6 #Need
+  levitation_force = 6 
   #levitation_force = levitation_force + 4 #=>10
 
-  while  levitation_force < 10 #while 0 < 6
+  while  levitation_force < 10  #need to add to levitation_force => 6 until levitation_force => 10
     puts "Wingardium Leviosa"
     levitation_force += 1
   end
